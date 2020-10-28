@@ -1,0 +1,34 @@
+
+
+/*Card Post*/
+.card{
+    max-width: 640px; 
+    border-radius: 0 50px 0 50px;
+}
+
+.card-comment{
+    text-align: center;
+    width: 400px;
+}
+
+.btn-post{
+    display: inline-block;
+    width: auto;
+    height: 52px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(-45deg, #e91e63, #00bcd4, #e91e63);
+    border-radius: 50px 0 50px 0;
+    transition: all ease 1s;
+    background-size: 400% 400%;
+    background-position: 0 0;
+}
+
+.btn-post:hover{
+    border-radius: 0 50px 0 50px;
+    background-position: 100% 50%;
+    color: white;
+}
