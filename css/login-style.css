@@ -1,0 +1,128 @@
+div{
+    display: block;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.login-container, body{
+    background: url("../img/macbook-pro-at-night-picjumbo-com.jpg") no-repeat center center fixed;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.login-card{
+    width: 390px;
+    background: #fff;
+    border-radius: 0 50px 0 50px;
+    overflow: hidden;
+    padding: 50px 55px 30px 55px;
+
+    min-height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.register-card{
+    width: 450px;
+    background: #fff;
+    border-radius: 0 50px 0 50px;
+    overflow: hidden;
+    padding: 40px 55px 30px 55px;
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.user-avatar{
+    margin-top: -130px;
+    position: absolute;
+    z-index: 1;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.user-avatar img{
+    width: 100px;
+    height: 100px;
+}
+
+.user-name{
+    display: block;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 37px;
+}
+
+.form-a{
+    border-radius: 50px 0 50px 0;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+
+    /**/
+    font-size: 16px;
+    display: block;
+    height: 52px;
+    text-align: center;
+    
+}
+
+
+.form-b{
+    border-radius: 0 50px 0 50px;
+    margin-bottom: 25px;
+
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 52px;
+    text-align: center;
+}
+
+.login-btn{
+    display: inline-block;
+    width: 100%;
+    height: 52px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(-45deg, #e91e63, #00bcd4, #e91e63);
+    border-radius: 50px 0 50px 0;
+    transition: all ease 1s;
+    background-size: 400% 400%;
+    background-position: 0 0;
+}
+
+.login-btn:hover{
+    border-radius: 0 50px 0 50px;
+    background-position: 100% 50%;
+    color: white;
+}
+
+
+
+.footer-login{
+    padding-top: 57px;
+}
