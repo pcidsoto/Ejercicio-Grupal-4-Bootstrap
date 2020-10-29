@@ -1,5 +1,5 @@
-
-.login-container, body{
+    .login-container,
+body {
     background: url("../img/macbook-pro-at-night-picjumbo-com.jpg") no-repeat center center fixed;
     width: 100%;
     min-height: 100vh;
@@ -15,18 +15,20 @@
     z-index: 1;
 }
 
+
 /*Card Post*/
-.card{
-    max-width: 640px; 
+
+.card {
+    max-width: 640px;
     border-radius: 0 50px 0 50px;
 }
 
-.card-comment{
+.card-comment {
     text-align: center;
     width: 400px;
 }
 
-.btn-post{
+.btn-post {
     display: inline-block;
     width: auto;
     height: 52px;
@@ -42,8 +44,29 @@
     background-position: 0 0;
 }
 
-.btn-post:hover{
+.btn-post:hover {
     border-radius: 0 50px 0 50px;
     background-position: 100% 50%;
     color: white;
 }
+
+.bubbly-button {
+    font-family: 'Helvetica';
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ff0081;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+    &:focus {
+        outline: 0;
+    }
