@@ -22,8 +22,19 @@
 }
 
 .card-comment{
-    text-align: center;
-    width: 400px;
+    border-radius: 0 50px 0 50px;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    font-size: small;
+}
+
+.card-body{
+    font-size: small;
+}
+
+.card-footer{
+    text-align: right;
 }
 
 .btn-post{
@@ -46,4 +57,26 @@
     border-radius: 0 50px 0 50px;
     background-position: 100% 50%;
     color: white;
+}
+
+
+
+/*COMENTARIOS*/
+.comment-text{
+    text-justify: distribute;
+}
+
+.comment-avatar{
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    left:0;
+    right:0;
+    
+    margin-right:auto;
+}
+
+.user-avatar img{
+    width: 80px;
+    height: 80px;
 }

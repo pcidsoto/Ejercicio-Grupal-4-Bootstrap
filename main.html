@@ -12,7 +12,7 @@
 </head>
 <body>
   <header class="header">
-    <nav class="navbar fixed-top navbar navbar-expand-lg navbar-dark bg-personal">
+    <nav class="navbar fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">FakeBook</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,6 +51,8 @@
                 <div class="w-100 p-3" style="background-color: #eee;">Parejas</div>
                 <div class="w-100 p-3" style="background-color: #eee;">Mejores amigos</div>
             </div>
+
+            <!--Card - Post-->
             <div class="col-8">
                 <div class="card mb-3 text-center">
                     <div class="row no-gutters">
@@ -76,7 +78,7 @@
                 </div>
                 
                 <!--COMENTARIOS-->
-                <div class="card mb-3 text-center">
+                <div class="card mb-3">
                     <div class="row no-gutters">
                       <div class="col-md-8">
                         <div class="card-body">
@@ -84,7 +86,10 @@
                           <form>
                             <div class="form-group">
                               <label for="comment">Comment:</label>
-                              <textarea class="form-control" rows="5" id="comment"></textarea>
+                              <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Vestibulum porta fringilla eleifend. Vivamus facilisis metus mi, 
+                                quis convallis libero rutrum vel. Quisque urna dolor, pretium nec rhoncus a, 
+                                suscipit sit amet augue.</p>
                             </div>
                           </form>
                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -95,20 +100,48 @@
                       </div>
                     </div>
                 </div>
-                <div class="card card-comment" style="background: turquoise;">
-                    <form>
-                        <div class="form-group text-center m-4">
-                          <label for="comment">Comment:</label>
-                          <textarea class="form-control" rows="4" id="comment"></textarea>
-                        </div>
-                      </form>
 
-            </div>
+                <!-- CARD COMENTARIO AMIGO -->
+                <div class="card pmd-card">
+                  
+                  <!-- Card Header -->
+                  <div class="card-header d-flex flex-row">
+                      <div class="d-flex flex-row">
+                        <div class="p-2">
+                          <img src="img/undraw_female_avatar_w3jk.svg" class="comment-avatar rounded-circle" >
+                        </div>
+                        <div class="p-2">
+                          <h5 class="card-title">Juliane Moore</h5>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                  </div>
+                  
+                  <!-- Card Body -->
+                  <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Vestibulum porta fringilla eleifend. Vivamus facilisis metus mi, quis convallis libero rutrum vel. 
+                        Quisque urna dolor, pretium nec rhoncus a, suscipit sit amet augue.</p>
+                  </div>
+                  
+                  <!-- Card Actions -->
+                  <div class="card-footer">
+                    <div class="d-flex flex-row-reverse">
+                      <div class="d-flex flex-row p-1">       
+                        <button type="submit" class="btn btn-outline-primary">me gusta <span class="badge">14</span></button>
+                      </div>
+                      <div class="d-flex flex-row p-1">       
+                        <button type="submit" class="btn btn-outline-danger">me encanta <span class="badge">14</span></button>
+                      </div>
+                      
+                    </div>
+                      
+                  </div>
+
+                </div>
+          </div>
         </div>
     </div>
-
-    
-<body>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
