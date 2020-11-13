@@ -17,8 +17,13 @@
 
 /*Card Post*/
 .card{
-    max-width: 640px; 
     border-radius: 0 50px 0 50px;
+}
+
+.media-comment{
+    background-color: #F5DF80;
+    border-radius: 50px 50px 50px 50px;
+    font-size: small;
 }
 
 .card-comment{
@@ -72,7 +77,6 @@
     z-index: 1;
     left:0;
     right:0;
-    
     margin-right:auto;
 }
 
@@ -80,3 +84,13 @@
     width: 80px;
     height: 80px;
 }
+
+.fa-user{
+    color: white;
+}
+
+.icon-img{
+    width: 20px;
+    height: 20px;
+}
+/*Like button animation*/
